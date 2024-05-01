@@ -16,3 +16,16 @@ min_liczba = 0
 min_wartosc = 99999
 max_liczba = 0
 max_wartosc = 0
+
+for klucz in ilosc_frag:
+    liczba_wystapien = ilosc_frag[klucz]
+    if liczba_wystapien <= min_wartosc:
+        if int(klucz) < min_liczba:
+            min_wartosc = liczba_wystapien
+            min_liczba = int(klucz)
+    if liczba_wystapien >= max_wartosc:
+        if int(klucz) < max_liczba:
+            max_wartosc = liczba_wystapien
+            max_liczba = int(klucz)
+
+print(min_liczba, min_wartosc, max_liczba, max_wartosc)
