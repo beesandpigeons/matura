@@ -1,0 +1,13 @@
+nie zrobiłem sam bo chciałem się nauczyć tego całego pseudokodu
+k = 0
+dla i = 1,2, ... n wykonuj
+    jeżeli A[i] > n
+        k = k + 1
+dla i = 1,2, ..., n wykonuj
+    B[i] = 0
+dla i = 1, 2, ..., n wykonuj
+    jezeli A[i] <= n 
+    B[A[i]] = B[A[i]] + 1
+dla i = 1,2, ..., n wykonuj
+    jeżeli B[i] > 1
+        k = k + B[i]-1
