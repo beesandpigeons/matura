@@ -1,0 +1,35 @@
+nie zrobiłem sam nie wiem jak ja mam to niby zdać <33333
+
+aabab
+A = [0,1,2,2,3,3]
+    jeżeli a -> poprzednia +1
+    jeżeli b -> poprzednia
+B = [2,2,2,1,1,0]
+    jeżeli b -> +1
+    jeżeli a - poprzednia 
+    (????????)
+k = 1
+    jeżeli A[0]+B[0] > k -> k = wynik
+    k=2
+    k=3
+    k=4
+    k=4
+    k=4
+    k=4
+
+
+aababb
+A = [0,1,2,2,3,3,3]
+B = [3,3,3,2,2,1,0]
+k = 1
+    k =3
+    k = 4
+    k = 5
+
+baabbaaab
+A = [0,0,1,2,2,2,3,4,5,5]
+B = [4,3,3,3,2,1,1,1,1,0]
+k = 1
+    k = 4
+    k = 5
+    k = 6
