@@ -1,1 +1,26 @@
+a)
+    |_P_|_P_|_P_|
+    |_F_|_F_|_F_|
+    |_F_|_F_|_F_|
+    Fałsz
+    X źle
+        Apparently jakimś cudem wychodzi z operacji logicznych prawda. Może potrzeba hydraulików w tym kraju
 
+b)
+    Nie wiem czy to się liczy bo zobaczyłem rozwiązanie tamtego. Nie wiem mam już to wszystko w dupie
+    |_P_|_P_|_P_|
+    |_F_|_F_|_P_|
+    |_F_|_F_|_P_|
+    |_F_|_F_|_P_|
+    |_F_|_F_|_P_|
+    prawda
+    zdecyduję później czy uznać czy nie jak nie będę taki wkurwiony i samobójczy może
+
+c)
+    |_P_|_F_|_F_|_F_|_F_|
+    |_P_|_P_|_F_|_F_|_F_|
+    |_F_|_P_|_F_|_F_|_F_|
+    |_F_|_P_|_P_|_P_|_P_|
+    |_F_|_P_|_F_|_P_|_P_|
+
+Czy my wszyscy jesteśmy debilami i wystarczyło posłuchać się z polecenia, że {n}{m} zawsze są prawdą?????
