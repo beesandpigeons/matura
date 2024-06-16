@@ -1,15 +1,21 @@
 #ngl nie wiedziałem jak zrobić dzielnik :(
+import math
 plik = open('Dane-NF-2405/skrot2_przyklad.txt', 'r')
 wiersze = plik.readlines()
 wyniki = []
+
 for liczba in wiersze:
-    for cyfra in str(liczba):
-        skrot_lista=[]
-        x = int(cyfra) %2
+    liczba = liczba.strip()
+    skrot_lista = []
+    for cyfra in liczba:
+        x = int(cyfra) % 2
         if x != 0:
             skrot_lista.append(cyfra)
-        if x == 0:
-            pass
-        zlaczony = (''.join(skrot_lista))
-        skrot=int(zlaczony)
-print(skrot)
+    skrot = ''.join(map(str, skrot_lista)).replace(" ","")
+    if skrot:
+        liczba = int(liczba)
+        skrot = int(skrot)
+        if math.gcd(liczba,skrot) == 7:
+            print(liczba)
+
+#w końcu zrobiłem ale na maturze na pewno bym się nie wyrobił
