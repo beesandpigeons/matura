@@ -7,12 +7,12 @@ inaczej: liczba na 2 + 2
 
 16
     F(16)=2+F(8)=2+ 2 + F(4) = 2+2+2+F(2)=2+2+2+2+F(0) = 8+0=8
-    wynik: 8
+    wynik: 8 XX 10
     wywołania: 5
 
 35
     F(35)=2+F(17)=2+2+F(8)=2+2+2+F(4)=2+2+2+2+F(2)=2+2+2+2+2+F(0)=10+0=10
-    wynik: 10
+    wynik: 10 XX 12
     wywołania: 6
 
-Źle apparently
+Źle apparently, może F(0)=2+0??
