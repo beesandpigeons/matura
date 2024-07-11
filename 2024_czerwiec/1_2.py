@@ -12,3 +12,4 @@ while len(n_lista)<maks:
         n_lista.append(n_bin[i])
 x = n_lista[-1]
 print(x)
+#nie wiem czy dobrze, wynik jest dobry ig :p
