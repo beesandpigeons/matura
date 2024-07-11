@@ -1,0 +1,10 @@
+tablica: w wiersze k kolumny
+n = MAKS długość k*w 
+
+w=4 k=5
+179 = 1011 0011
+|1|0|1|1|0|
+|0|1|1|1|0|
+|1|1|0|0|1|
+|1|1|0|1|1|
+dobrze jyupiiiiigsjdngbhsbdhbgsjndbf 
